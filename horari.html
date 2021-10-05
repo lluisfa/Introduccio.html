@@ -8,208 +8,104 @@
     <title>Horari FP</title>
 </head>
 
-
 <body>
-    <style type="text/css">
-        .Table {
-            display: table;
-        }
-        
-        .Title {
-            display: table-caption;
-            text-align: right;
-            font-weight: bold;
-            font-size: larger;
-        }
-        
-        .Heading {
-            display: table-row;
-            font-weight: bold;
-            text-align: center;
-        }
-        
-        .Row {
-            text-align: center;
-            display: table-row;
-        }
-        
-        .Cell {
-            text-align: center;
-            display: table-cell;
-            border: solid;
-            border-width: thin;
-            padding-left: 3px;
-            padding-right: 3px;
-        }
-    </style>
-    </head>
 
-    <body>
-        <form id="form1" runat="server">
-            <div class="Table">
+    <table border="1">
+        <tr>
+            <thead>
+                <th colspan="6">The table header</th>
+            </thead>
+            <td>Horari</td>
+            <td>dilluns</td>
+            <td>dimarts</td>
+            <td>dimecres</td>
+            <td>dijous</td>
+            <td>divendres</td>
+        </tr>
 
-                <div class="Title">
-                    <p>Horari CFGM SXM - B</p>
-                </div>
+        <tr>
+            <td>8:00-8:50</td>
+            <td rowspan="2">
+                <p>Serveis</p>
+            </td>
+            <td rowspan="2">
+                <p>Seguretat</p>
+            </td>
+            <td rowspan="2">
+                <p>Serveis</p>
+            </td>
+            <td rowspan="2">
+                <p>Sistemes</p>
+            </td>
+            <td rowspan="2">
+                <p>Serveis</p>
+            </td>
+        </tr>
 
+        <tr>
+            <td>8:50-9:40</td>
 
-                <div class="Heading">
-                    <div class="Cell">
-                        <p>Hores</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Dilluns</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Dimarts</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Dimecres</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Dijous</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Divendres</p>
-                    </div>
-                </div>
+            <tr>
+                <td>9:40-10:00</td>
+                <td colspan="5">
+                    <p>pati</p>
+                </td>
 
 
+            </tr>
 
-                <div class="Row">
-                    <div class="Cell">
-                        <p>8h-9h</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Serveis en Xarxa</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Seguretat Informàtica</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Serveis en Xarxa</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Sistemes Operatius en Xarxa</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Serveis en Xarxa</p>
-                    </div>
-                </div>
+            <tr>
+                <td>10:00-10:55</td>
+                <td rowspan="2">
+                    <p>Seguretat</p>
+                </td>
+                <td rowspan="2">
+                    <p>Aplicacions</p>
+                </td>
+                <td rowspan="2">
+                    <p>Aplicacions</p>
+                </td>
+                <td>Sistemes</td>
+                <td>Serveis</td>
+            </tr>
 
+            <tr>
+                <td>10:55-11:50</td>
+                <td>Serveis</td>
+                <td>Sistemes</td>
+            </tr>
 
+            <tr>
+                <td>11:50-12:10</td>
+                <td colspan="5">
+                    <p>pati</p>
+                </td>
+            </tr>
 
-                <div class="Row">
-                    <div class="Cell">
-                        <p>9h-9:45h</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Serveis en Xarxa</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Seguretat Informàtica</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Serveis en Xarxa</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Sistemes Operatius en Xarxa</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Serveis en Xarxa</p>
-                    </div>
-                </div>
+            <tr>
+                <td>12:10-13:05</td>
+                <td>EIE</td>
+                <td rowspan="2">
+                    <p>EIE</p>
+                </td>
+                <td rowspan="2">
+                    <p>Sistemes</p>
+                </td>
+                <td rowspan="2">
+                    <p>Seguretat</p>
+                </td>
+                <td rowspan="2">
+                    <p>Sistemes</p>
+                </td>
+            </tr>
 
+            <tr>
+                <td>13:05-14:00</td>
+                <td>Aplicacions</td>
+            </tr>
 
-                <div class="Row">
-                    <div class="Cell">
-                        <p>10h-10:55h</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Seguretat Informàtica</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Aplicacions Web</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Aplicacions Web</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Sistemes Operatius en Xarxa</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Serveis en Xarxa</p>
-                    </div>
-                </div>
+    </table>
 
-
-                <div class="Row">
-                    <div class="Cell">
-                        <p>10:55h-11:55h</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Seguretat Informàtica</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Aplicacions Web</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Aplicacions Web</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Aplicacions Web</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Sistemes Operatius en Xarxa</p>
-                    </div>
-                </div>
-
-
-                <div class="Row">
-                    <div class="Cell">
-                        <p>12:10h-13:05h</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Empresa</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Empresa</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Sistemes Operatius en Xarxa</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Seguretat Informàtica</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Sistemes Operatius en Xarxa</p>
-                    </div>
-                </div>
-
-
-                <div class="Row">
-                    <div class="Cell">
-                        <p>13:05h-14:00h</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Aplicacions Web</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Empresa</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Sistemes Operatius en Xarxa</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Seguretat Informàtica</p>
-                    </div>
-                    <div class="Cell">
-                        <p>Sistemes Operatius en Xarxa</p>
-                    </div>
-                </div>
-
-            </div>
-        </form>
-    </body>
+</body>
 
 </html>
