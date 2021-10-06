@@ -11,15 +11,37 @@
 <body>
     <h1>Formulari de registre</h1>
     <form action="login.html" method="post">
-        <label for="usuari">Nom</label>
-        <input id="usuari" type="text" required>
-        <label for="usuari">Llinatges:</label>
-        <input id="usuari" type="password" required>
-        <button>Login</button>
+        <label for="Nom">Nom:</label>
+        <input id="Nom" type="text" required>
+        <label for="Llinatges">Llinatges:</label>
+        <input id="Llinatges" type="text" required>
+
+        <br><br> Home:
+        <input type="radio" name="Home"> Dona:
+        <input type="radio" name="Home"> Altre:
+        <input type="radio" name="Home">
+
+        <br><br>
+        <label for="email">Email: </label>
+        <input type="email" id="email" type="text" placeholder="El teu email" required>
+        <label for="contrasenya">Contrasenya:</label>
+        <input type="password" pattern=".{6,}" id="contrasenya" type="text" required>
+
+        <br><br>
+        <label for="data">Data de naixament:</label>
+        <input id="data" type="date">
+
+        <br><br> Estic d'acord amb els termes i condicions: <input type="checkbox">
+
+        <br><br>
+        <input type="reset" value="Submit">
 
 
-    </form>
+
+
+
 
 </body>
+
 
 </html>
