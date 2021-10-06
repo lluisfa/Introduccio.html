@@ -1,11 +1,11 @@
-.menu {
+.nav-enlace {
     background: seagreen;
     color: #fff;
     padding: 10px 30px;
-    list-style: none;
-    display: inline-block text-decoraion: none
+    text-decoration: none;
+    display: inline-block list-st
 }
 
-.menu:hover {
-    background: rgb(97, 238, 132);
+.nav-enlace:hover {
+    background: rgb(143, 188, 154);
 }
