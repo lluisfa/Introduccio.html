@@ -1,11 +1,11 @@
-.li {
+.menu {
     background: seagreen;
     color: #fff;
     padding: 10px 30px;
-    text-decoration: none;
-    display: inline-block
+    list-style: none;
+    display: inline-block text-decoraion: none
 }
 
-.li:hover {
+.menu:hover {
     background: rgb(97, 238, 132);
 }
