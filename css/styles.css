@@ -1,4 +1,4 @@
-.nav-enlace {
+.li {
     background: seagreen;
     color: #fff;
     padding: 10px 30px;
@@ -6,6 +6,6 @@
     display: inline-block
 }
 
-.nav-enlace:hover {
+.li:hover {
     background: rgb(97, 238, 132);
 }
