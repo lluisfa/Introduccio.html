@@ -1,4 +1,6 @@
-body {}
+.table {
+    font-size: x-large;
+}
 
 .dies {
     background-color: rgb(138, 192, 164);
@@ -33,9 +35,27 @@ body {}
 }
 
 .titol {
-    background-color: lemonchiffon;
+    background-color: rgb(75, 189, 130);
 }
 
 .titol2 {
-    background-color: lemonchiffon;
+    background-color: rgb(75, 189, 130);
+}
+
+td {
+    border-width: 1px;
+    border-color: black;
+    text-align: center;
+    color: rgb(1, 1, 119);
+}
+
+th {
+    border-width: 1px;
+    border-color: rgb(9, 1, 82);
+    text-align: center;
+    color: rgb(1, 1, 119);
+}
+
+table {
+    border-color: rgb(54, 201, 91);
 }
