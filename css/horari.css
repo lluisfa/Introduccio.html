@@ -1,0 +1,41 @@
+body {}
+
+.dies {
+    background-color: rgb(138, 192, 164);
+}
+
+.hores {
+    background-color: rgb(138, 192, 164);
+}
+
+.serveis {
+    background-color: rgb(109, 211, 236);
+}
+
+.eie {
+    background-color: rgb(193, 136, 221);
+}
+
+.seguretat {
+    background-color: rgb(224, 125, 112);
+}
+
+.sistemes {
+    background-color: rgb(124, 230, 129);
+}
+
+.aplicacions {
+    background-color: rgb(226, 228, 133);
+}
+
+.pati {
+    background-color: rgb(165, 216, 214);
+}
+
+.titol {
+    background-color: lemonchiffon;
+}
+
+.titol2 {
+    background-color: lemonchiffon;
+}
