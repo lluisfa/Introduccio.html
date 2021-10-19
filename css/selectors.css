@@ -128,5 +128,5 @@ h1:hover {
 /*Fes que els <a> que hagin estat visitats siguin de color gris */
 
 a:visited {
-    color: gray;
+    color: grey;
 }
