@@ -4,15 +4,35 @@ table {
 }
 
 td {
-    border: black solid 1px;
-    border-left: 0px;
+    border: solid black 1px;
+}
+
+td.top {
+    border-top: 0px;
     border-bottom: 0px;
 }
 
-.top {
+td.bottom {
+    border-bottom: 0px;
     border-top: 0px;
 }
 
-.right {
+td.left {
+    border-left: 0px;
     border-right: 0px;
+}
+
+td.right {
+    border-right: 0px;
+    border-left: 0px;
+}
+
+#Left {
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+}
+
+h1 {
+    text-align: center;
 }
