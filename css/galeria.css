@@ -1,0 +1,12 @@
+img {
+    width: 25%;
+    margin: 10px;
+}
+
+hr {
+    width: 31.5%;
+    float: left;
+    background-color: grey;
+    opacity: 20%;
+    border-color: transparent;
+}
