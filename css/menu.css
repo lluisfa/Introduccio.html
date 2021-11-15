@@ -95,6 +95,10 @@ body {
     background-color: rgb(171, 230, 248);
 }
 
+input {
+    text-align: center;
+}
+
 @media screen and (max-width: 411px) {
     .hamburguer {
         background-color: var(--backgroud-color);
